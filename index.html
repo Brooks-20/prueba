@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Human Protocol - Landing Page</title>
+
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap">
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+    <header class="header">
+        <nav>
+            <div class="logo">Human Protocol</div>
+
+            <button class="hamburger" id="nav-toggle">
+                ☰
+            </button>
+
+            <ul class="menu" id="nav-menu">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio" class="hero" data-animate="fade-up">
+        <div class="overlay"></div>
+        <div class="hero-content">
+            <h1>Innovación para el desarrollo humano</h1>
+            <p>La tecnología al servicio del progreso real.</p>
+            <a href="#contacto" class="btn">Contáctanos</a>
+        </div>
+    </section>
+
+    <section id="nosotros" class="section" data-animate="fade-left">
+        <div class="content">
+            <img src="https://images.unsplash.com/photo-1535223289827-42f1e9919769" class="section-img">
+            <div class="text">
+                <h2>¿Quiénes Somos?</h2>
+                <p>
+                    Nuestra misión es crear soluciones tecnológicas que mejoran la vida de las personas en el mundo real.
+                </p>
+            </div>
+        </div>
+
+        <div id="mision" class="content">
+            <img src="https://images.unsplash.com/photo-1535223289827-42f1e9919769" class="section-img">
+            <div class="text">
+                <h2>Nuestra Misión</h2>
+                <p>
+                    Nuestra misión es crear soluciones tecnológicas que mejoran la vida de las personas en el mundo real.
+                </p>         
+            </div>
+        </div>
+        <div id="mision" class="content">
+            <img src="https://images.unsplash.com/photo-1535223289827-42f1e9919769" class="section-img">
+            <div class="text">
+                <h2>Nuestra Misión</h2>
+                <p>
+                    Nuestra misión es crear soluciones tecnológicas que mejoran la vida de las personas en el mundo real.
+                </p>         
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto" class="section" data-animate="fade-right">
+        <div class="content contact-box">
+            <h2>Contacto</h2>
+            <p>Envíanos tu mensaje y te responderemos pronto.</p>
+
+            <form id="contact-form">
+                <input type="text" id="name" placeholder="Tu nombre" required>
+                <input type="email" id="email" placeholder="Correo electrónico" required>
+                <textarea id="message" placeholder="Escribe tu mensaje" required></textarea>
+                <button type="submit" class="btn">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        &copy; 2025 Human Protocol - Todos los derechos reservados
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
